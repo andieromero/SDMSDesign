@@ -55,12 +55,25 @@
                 <div class="col-md-12">
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
-                            <li><a class="menu-top-active" href="index.html">Dashboard</a></li>
-                            <li><a href="ui.html">UI Elements</a></li>
-                            <li><a href="table.html">Data Tables</a></li>
-                            <li><a href="forms.html">Forms</a></li>
-                             <li><a href="login.html">Login Page</a></li>
-                            <li><a href="blank.html">Blank Page</a></li>
+                            <li><a class="menu-top-active" href="index.html">Home</a></li>
+                            <li><a href="">Music Products</a></li>
+                            <li><a href="">ReedsforLess</a></li>
+                            <li><a href="">Rentals</a></li>
+                             <li><a href="">Events</a></li>
+                            <li id="scheduleLink"><a href="">Lesson Schedule</a></li>
+                                    <div id="scheduleContent" style="display: none;">  
+          <ul id="file_menu">
+            <li><a href="#file">File</a></li>
+            <li><a href="#edit">Edit</a></li>
+            <li><a href="#view">View</a></li>
+            <li><a href="#insert">Insert</a></li>
+            <li><a href="#modify">Modify</a></li>
+            <li><a href="#control">Control</a></li>
+            <li><a href="#debug">Debug</a></li>
+            <li><a href="#window">Window</a></li>
+            <li><a href="#help">Help</a></li>
+          </ul>
+      </div>
                         </ul>
                     </div>
                 </div>
@@ -69,71 +82,205 @@
         </div>
     </section>
     <!-- MENU SECTION END-->
+    <!-- CAROUSEL  -->
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+      <!-- Overlay -->
+      <div class="overlay"></div>
 
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-  <!-- Overlay -->
-  <div class="overlay"></div>
-
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#bs-carousel" data-slide-to="1"></li>
-    <li data-target="#bs-carousel" data-slide-to="2"></li>
-  </ol>
-  
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item slides active">
-      <div class="slide-1"></div>
-      <div class="hero">
-        <hgroup>
-          <h1>Your Local Community of Musicians and Educators</h1>        
-          <ul>
-            <li>Group and Private Lessons</li>
-            <li>Qualified Teachers</li>
-          <ul>
-        </hgroup>
-      </div>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#bs-carousel" data-slide-to="1"></li>
+        <li data-target="#bs-carousel" data-slide-to="2"></li>
+      </ol>
+      
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item slides active">
+          <div class="slide-1"></div>
+          <div class="hero">
+            <hgroup>
+              <h1>Your Local Community of Musicians and Educators</h1>        
+              <ul>
+                <li>Group and Private Lessons</li>
+                <li>Qualified Teachers</li>
+              <ul>
+            </hgroup>
+          </div>
+        </div>
+        <div class="item slides">
+          <div class="slide-2"></div>
+          <div class="hero">        
+            <hgroup>
+                <h1>Let's Get You Started</h1>        
+                <ul>
+                  <li>Band Teacher Approved Instruments</li>
+                  <li>Beginning Student - Instrument Rentals</li>
+                </ul>
+            </hgroup>       
+            <button class="btn btn-hero btn-lg" role="button" href="#">Rentals</button>
+          </div>
+        </div>
+        <div class="item slides">
+          <div class="slide-3"></div>
+          <div class="hero">        
+            <hgroup>
+                <h1>Quality Music Instruments and Accessories</h1>        
+                <ul>
+                  <li>Hundreds of Quality Brands</li>
+                  <li>Top 100 Dealer</li>
+                </ul>
+            </hgroup>
+            <button class="btn btn-hero btn-lg" role="button" href="#">See all features</button>
+          </div>
+        </div>
+      </div> 
     </div>
-    <div class="item slides">
-      <div class="slide-2"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>Let's Get You Started</h1>        
-            <ul>
-              <li>Band Teacher Approved Instruments</li>
-              <li>Beginning Student - Instrument Rentals</li>
-            </ul>
-        </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button" href="#">Rentals</button>
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-3"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>Quality Music Instruments and Accessories</h1>        
-            <ul>
-              <li>Hundreds of Quality Brands</li>
-              <li>Top 100 Dealer</li>
-            </ul>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button" href="#">See all features</button>
-      </div>
-    </div>
-  </div> 
-</div>
 
 
-    <div class="content-wrapper">
+    <section class="educators">
+      <div class="container">
+        <h4 class="page-head-line">Meet Our Musical Educators</h4>
+        <div class="row">
+          <div class="edu-item col-md-4 col-sm-4 col-xs-6">
+              <img class="edu thumbnail" href="" alt="kimberly" src="img/kimberly.jpg"/>
+              <div class="caption">
+                <h1>Kimberly Deverell <span class="small"> STUDIO MANAGER</span></h1>
+                <blockquote>
+                  <p class="edu-des"> A wife and mother of 2 children, Kimberly Deverell is a graduate of San Diego State University. She received a Magna Cum Laude with Distinction in her major of Music Education. She has been an instructor at San Diego Music Studio since 1997 and serves as our Studio Manager. She supervises all of the educational programs here at the studio and oversees all aspects of teaching and class structure. Kimberly is a member of the Music Teacher's Association of California and actively participates in helping to prepare qualified students for MTAC competitions. She co-teaches piano classes and also assists in many other classes throughout the studio.</p>
+                </blockquote>
+              </div>
+          </div>
+          <div class="edu-item col-md-4 col-sm-4 col-xs-6">
+            <img class="edu" href="" alt="drew" src="img/drew.jpg"/>
+              <div class="caption">
+                <h1>Drew Burges <span class="small"> MUSIC INSTRUCTOR</span></h1>
+                <blockquote>
+                  <p class="edu-des">Drew Burges grew up in Northern Arizona studying cello, string bass, and guitar. He attended Longwood University in Virginia where he completed a music degree with an emphasis on piano. While in college he also studied guitar in several jazz ensembles, cello in string ensembles, string bass in symphonic band, and vocal performance in several choral ensembles. He was a member of the band LeGrande Jazz, which toured extensively around southern Virginia. Since moving to Southern California, Drew has been working with singer Eric Hellmers as a jazz duo.</p>
+                </blockquote>
+              </div>
+          </div>
+          <div class="edu-item col-md-4 col-sm-4 col-xs-6">
+            <img class="edu" href="" alt="bliss" src="img/bliss.jpg"/>
+              <div class="caption">
+                <h1>Bliss Edwards <span class="small"> PIANO & VOICE INSTRUCTOR</span></h1>
+                <blockquote>
+                  <p class="edu-des">Bliss is currently attending Palomar College studying to attain degrees in Music Education and Criminology. She also competes on the College’s swim team. Bliss will be transferring to CSU Stanislaus to earn dual Bachelor Degrees in Music and in Criminology, specializing in Forensic Science. Bliss has been teaching privately for over 7 years and enjoys working with all ages and levels of students. She has been a member of the SDMS faculty since 2008 and currently teaches piano and voice classes. Bliss also serves as our head day camp counselor and specializes in teaching drawing, painting, crafts, sports, cooking and drama classes.</p>
+                </blockquote>
+              </div>      
+          </div>
+          <div class="edu-item col-md-4 col-md-offset-2 col-sm-4 col-xs-6">
+            <img class="edu" href="" alt="kathleen" src="img/kathleen.jpg"/>
+              <div class="caption">
+                <h1>Kathleen Hernandez <span class="small"> BAND INSTRUCTOR</span></h1>
+                <blockquote>
+                  <p class="edu-des">Kathleen has been traveling the U.S. with her military family since birth, and has recently moved to San Diego from South Carolina with her husband Tommy. She is a graduate of Converse College, Petrie School of Music, where she received a Bachelor of Music in Music Education with an emphasis in instrumental music. While in College, Kathleen was the principal saxophonist for the Converse College Wind Ensemble for four years and served as the vice president of the Music Educators National Conference (collegiate division). Upon graduation Kathleen was the assistant band director, for one of the top band programs in South Carolina, R.C. Edwards middle school.</p>
+                </blockquote>
+              </div>          
+          </div>
+          <div class="edu-item col-md-4 col-sm-4 col-xs-6">
+            <img class="edu" href="" alt="brie" src="img/brie.jpg"/>
+              <div class="caption">
+                <h1>Brie Edwards <span class="small"> PIANO INSTRUCTOR</span></h1>
+                <blockquote>
+                  <p class="edu-des">Brie Edwards is one of our wonderful Piano instructors. She is currently pursuing her degree in Music and in Children’s Education. Brie has been teaching piano for seven years and loves working with children. She grew up learning the Suzuki Method and completed Certificate of Merit levels 1-9. She also excelled in the Piano Teacher’s Guild evaluations for several years. Brie is a Guild certified teacher and loves to continue to be challenged by competing in it herself. Brie enjoys performing at private events in the community and at local restaurants.</p>
+                </blockquote>
+              </div>           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands container">
+      <h4 class="page-head-line">Brands We Supply</h4>
+      <div class="row">
+        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/alfred.jpg" class="brand"/></div>
+        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/yamaha.png" class="brand"/></div>
+        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/vic.png" class="brand"/></div>
+        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/hal.png" class="brand"/></div>
+        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/alfred.jpg" class="brand"/></div>
+        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/alfred.jpg" class="brand"/></div>
+      </div>
+    </section>
+
+    <section class="rentals container">
+      <h4 class="page-head-line">Rentals</h4>
+        <div class="pricing-wrapper col-md-12">
+          <!-- Pricing Plan -->
+      <div class="pricing-plan">
+        <!-- Pricing Plan Ribbon -->
+        <div class="ribbon-wrapper">
+          <div class="price-ribbon ribbon-red">SALE</div>
+        </div>
+        <h2 class="pricing-plan-title">Yamaha Alto Saxophone</h2>
+        <p class="pricing-plan-price">FREE</p>
+        <!-- Pricing Plan Features -->
+        <ul class="pricing-plan-features">
+          <li><strong>Brand</strong> Yamaha</li>
+          <li><strong>Year</strong> 2004</li>
+          <li><strong>Condition</strong> used</li>
+        </ul>
+        <a href="index.html" class="btn">Order Now</a>
+      </div>
+      <!-- End Pricing Plan -->
+        <div class="pricing-plan">
+        <h2 class="pricing-plan-title">Yamaha Alto Saxophone</h2>
+        <p class="pricing-plan-price">FREE</p>
+        <!-- Pricing Plan Features -->
+        <ul class="pricing-plan-features">
+          <li><strong>Brand</strong> Yamaha</li>
+          <li><strong>Year</strong> 2004</li>
+          <li><strong>Condition</strong> used</li>
+        </ul>
+        <a href="index.html" class="btn">Order Now</a>
+        </div>
+        <!-- Promoted Pricing Plan -->
+        <div class="pricing-plan pricing-plan-promote">
+        <h2 class="pricing-plan-title">Yamaha Alto Saxophone</h2>
+        <p class="pricing-plan-price">FREE</p>
+        <!-- Pricing Plan Features -->
+        <ul class="pricing-plan-features">
+          <li><strong>Brand</strong> Yamaha</li>
+          <li><strong>Year</strong> 2004</li>
+          <li><strong>Condition</strong> used</li>
+        </ul>
+        <a href="index.html" class="btn">Order Now</a>
+        </div>
+        <div class="pricing-plan">
+          <!-- Pricing Plan Ribbon -->
+        <div class="ribbon-wrapper">
+          <div class="price-ribbon ribbon-green">New</div>
+        </div>
+        <h2 class="pricing-plan-title">Yamaha Alto Saxophone</h2>
+        <p class="pricing-plan-price">FREE</p>
+        <!-- Pricing Plan Features -->
+        <ul class="pricing-plan-features">
+          <li><strong>Brand</strong> Yamaha</li>
+          <li><strong>Year</strong> 2004</li>
+          <li><strong>Condition</strong> used</li>
+        </ul>
+        <a href="index.html" class="btn">Order Now</a>
+        </div>
+        </div>
+    </section>
+
+<!--     <div class="content-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="page-head-line">Dashboard</h4>
+                    <h4 class="page-head-line">Meet Our Musical Educators</h4>
 
                 </div>
 
             </div>
+
+
+
+
+
+
+
+
             <div class="row">
                 <div class="col-md-12">
                     <div class="alert alert-success">
@@ -355,15 +502,22 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- CONTENT-WRAPPER SECTION END-->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    &copy; 2015 YourCompany | By : <a href="http://www.designbootstrap.com/" target="_blank">DesignBootstrap</a>
+                <div class="col-md-4">
                 </div>
-
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; Copyright 2015 All Rights Reserved | <a href=""> Terms of Use</a> | <a href="">Privacy Policy</a> | <a href="">Security</a> | <a href="">Guarantee</a>
+                </div>
             </div>
         </div>
     </footer>
