@@ -4,12 +4,11 @@ $('.menu-section').affix({
 	}
 });
 
-var scheduleLink = $("#scheduleLink");
-$(scheduleLink).hover(
-	function() {
-		$(scheduleContent).slideDown(350);
-	}, 
-	function() {
-		$(scheduleContent).slideUp(350);
-	}
-);
+// Dropdown Menu Fade    
+jQuery(document).ready(function(){
+    $(".dropdown").hover(
+        function() { $('.dropdown-menu', this).fadeIn("fast");
+        },
+        function() { $('.dropdown-menu', this).fadeOut("fast");
+    });
+});

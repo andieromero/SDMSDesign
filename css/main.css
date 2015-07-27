@@ -28,6 +28,12 @@ button.navbar-toggle {
 	font-size: 1em;
 }
 
+@media screen and (max-width: 767px) {
+	.topnav p {
+		font-size: 10px;
+	}
+}
+
 .navbar {
 	height: 150px;
 }
@@ -44,44 +50,141 @@ img.top100 {
 	}
 }
 
-#scheduleContent:hover {
-    display: block !important;
-    width: 100%;
-    height: auto !important;
-    position: absolute;
-    z-index: 16;
+
+/* MEGA MENU STYLE
+********************************/ 
+.mega-menu {
+	padding: 20px 20px ! important;
+	width: 900px;
+	border-radius: 0;
+	margin-top: 0px;
+	background-color: #3D3D3D;
+	}
+
+	.mega-menu li {
+		display: inline-block;
+		float: left;
+		font-size: 0.94rem;
+		padding: 3px 0px;
+		color: #fff;
+		}
+
+	.mega-menu h3, h5 {
+		text-align: center;
+		color: #fff;
+	}
+
+		.mega-menu li.mega-menu-column {
+			margin-right: 20px;
+			width: 150px;
+			}
+
+			.mega-menu .nav-header {
+			padding: 0 !important;
+			margin-bottom: 10px;
+			display: inline-block;
+			width: 100%;
+			border-bottom: 1px solid #ddd;
+			}
+
+@media screen and (max-width: 768px) {
+.mega-menu {
+	display: none;
+	padding: 20px 20px ! important;
+	width: 100%;
+	border-radius: 0;
+	margin-top: 0px;
+	background-color: #3D3D3D;
+	max-height: 300px;
+	overflow: auto;
+	}
+
+	.mega-menu li {
+		display: inline-block;
+		float: left;
+		font-size: 0.94rem;
+		padding: 3px 0px;
+		color: #C36464 ;
+		}
+
+		.mega-menu li.mega-menu-column {
+			margin-right: 20px;
+			width: 150px;
+			}
+
+			.mega-menu .nav-header {
+			padding: 0 !important;
+			margin-bottom: 10px;
+			display: inline-block;
+			width: 100%;
+			border-bottom: 1px solid #ddd;
+			}
+
 }
 
-#scheduleContent {
-    width: 100%;
-    height: auto;
-    background: gray;
-    display: none;
-    position: absolute;
-}
-	#file_menu {
-	    border: 1px solid #1c1c1c;
-	}
 
-	#file_menu li {
-	    width: 100%;
-	    height: 30px;
-	    background-color: #302f2f;
-	}
 
-	#file_menu li a {
-		font-family: Arial;
-		font-size: 14px;
-	    color:#FFFFFF; 
-	    font-weight: bold;
-	    text-decoration:none; 
-	    padding:5px 10px; 
-	    display:block;
-	}
 
-	#file_menu li a:hover {
-	    color: #F00880;
-	}
+
+
+/* Disable Toggle style
+********************************/  
+
+/* Dropdown Toggle on style */
+.navbar .nav li.dropdown.open > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    background: inherit; /* Set to inherit when using mouse hover to open dropdown */
+    color: inherit;
+    }   
+    /* Toggle off style */
+    .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+    .navbar .nav > li.dropdown > a:focus { 
+    background: inherit;
+    color: inherit;
+    }
+    /* Toggle hover */
+    .navbar .nav li.dropdown > .dropdown-toggle:hover,
+    .navbar .nav li.dropdown.open > .dropdown-toggle:hover {
+    background-color: #DDDDDD;
+    }
+            
+            
+    /* Toggle caret*/
+    .navbar .nav li.dropdown > .dropdown-toggle .caret {
+        border-bottom-color:;
+        border-top-color:;
+        }
+        /* Toggle caret hover */
+        .navbar .nav li.dropdown > a:hover .caret, 
+        .navbar .nav li.dropdown > a:focus .caret {
+        border-bottom-color: #333;
+        border-top-color: #333;
+        }
+        /* Toggle caret active */
+        .navbar .nav li.dropdown.open > .dropdown-toggle .caret, 
+        .navbar .nav li.dropdown.active > .dropdown-toggle .caret, 
+        .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+        border-bottom-color:#333;
+        border-top-color: #333;
+        }
+
+
+
+/* Hover style
+********************************/ 
+.navbar .nav > li > a, .mega-menu a
+ { 
+  -webkit-transition: all 200ms ease;
+	 -moz-transition: all 200ms ease;
+	  -ms-transition: all 200ms ease;
+	   -o-transition: all 200ms ease;
+	      transition: all 200ms ease; 
+	
+		 /* -webkit-transform: translate3d(0, 0, 0); Webkit Hardware Acceleration*/ 
+	     -webkit-backface-visibility: hidden; /* Safari Flicker Fix #2 */
+	     -webkit-transform: translateZ(0);
+}	
 /*
 Fade content bs-carousel with hero headers
 Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
@@ -309,6 +412,20 @@ img.edu {
 .edu-item .author-info {
   font-weight: 400;
   font-size: 0.8em;
+}
+
+@media screen and  (max-width: 767px) {
+	p.edu-des {
+		font-size: 12px;
+		max-height: 200px;
+		overflow: auto;
+	}
+	.caption h1 {
+		font-size: 20px;
+	}
+	.caption .small {
+		font-size: 14px;
+	}
 }
 
 
