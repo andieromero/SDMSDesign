@@ -32,11 +32,24 @@ button.navbar-toggle {
 	height: 150px;
 }
 
+img.top100 {
+	float: right;
+	width: 100px;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+	img.top100 {
+		display: none;
+	}
+}
+
 #scheduleContent:hover {
     display: block !important;
     width: 100%;
     height: auto !important;
     position: absolute;
+    z-index: 16;
 }
 
 #scheduleContent {
