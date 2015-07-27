@@ -1,0 +1,65 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.menu-section.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+a.navbar-brand{
+	color: #fff!important;
+	font-size: 2em;
+	line-height: 1em;
+}
+
+button.navbar-toggle {
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+	border: none;
+	background-color: #F0677C;
+}
+
+.topnav {
+	font-size: 1em;
+}
+
+.navbar {
+	height: 150px;
+}
+
+.carousel, .item, .active {
+height:100%;
+}
+.carousel-inner {
+height:100%;
+}
+.carousel {
+margin-bottom: 60px;
+}
+.carousel-caption {
+z-index: 10;
+}
+.carousel .item {
+background-color: #777;
+}
+.carousel .carousel-inner .bg {
+background-repeat:no-repeat;
+background-size:cover;
+}
+.carousel .carousel-inner .bg1 {
+background-image:url(bg1.jpg);
+background-position: center top;
+}
+.carousel .carousel-inner .bg2 {
+background-image:url(bg2.jpg);
+background-position: center center;
+}
+.carousel .carousel-inner .bg3 {
+background-image:url(bg3.jpg);
+background-position: center bottom;
+}
