@@ -19,10 +19,11 @@
    GENERAL STYLES
  ============================================================ */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+ /* FREE GOOGLE FONT */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     line-height: 30px;
 }
 
