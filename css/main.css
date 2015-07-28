@@ -479,6 +479,17 @@ img.other-news {
   margin-bottom: 0px;
 }
 
+p.small-headline {
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 10px;
+}
+
+.news-item a {
+  padding-right: 30px;
+  color: #2e2e2e;
+}
+
 .news-caption{
   line-height: 15px !important;
   font-size: 12px !important;
