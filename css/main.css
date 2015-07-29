@@ -694,3 +694,27 @@ p.small-headline {
     z-index: 4;
   }
 }
+
+/*TERMS AND CONDITIONS*/
+
+.terms {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.breadcrumb {
+  background-color: #fff !important;
+  margin-left: 40px; 
+}
+
+ol.breadcrumb a {
+  color: #2e2e2e;
+}
+
+ol.breadcrumb a:hover {
+  color: #C36464;
+}
+
+ol.terms-list {
+  line-height: 20px;
+}

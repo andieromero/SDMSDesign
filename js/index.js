@@ -12,3 +12,13 @@ jQuery(document).ready(function(){
         function() { $('.dropdown-menu', this).fadeOut("fast");
     });
 });
+
+$.getJSON("../json/content.json", function(data) {
+	console.log(terms);
+	var terms = [];
+	$.each( data, function (header, content) {
+		terms.push("<li id='" + header + "'>" + content + "</li>")
+	});
+
+});
+
