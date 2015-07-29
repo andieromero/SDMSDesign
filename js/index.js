@@ -13,7 +13,7 @@ jQuery(document).ready(function(){
     });
 });
 
-$.getJSON("../json/content.json", function(data) {
+$.getJSON("json/content.json", function(data) {
 	console.log(terms);
 	var terms = [];
 	$.each( data, function (header, content) {
@@ -21,4 +21,6 @@ $.getJSON("../json/content.json", function(data) {
 	});
 
 });
+
+var text = $.getJSON("json/content.json")
 
