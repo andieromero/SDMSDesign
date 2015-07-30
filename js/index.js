@@ -13,14 +13,23 @@ jQuery(document).ready(function(){
     });
 });
 
-$.getJSON("json/content.json", function(data) {
-	console.log(terms);
-	var terms = [];
-	$.each( data, function (header, content) {
-		terms.push("<li id='" + header + "'>" + content + "</li>")
-	});
 
-});
+var width = $(window).width();
+console.log(width);
 
-var text = $.getJSON("json/content.json")
+if (width < (768)) {
+	$('.dropdown-toggle').prop('disabled', true);
+	$('.dropdown-toggle').attr("href", "schedule.html");
+}
+
+// $.getJSON("json/content.json", function(data) {
+// 	console.log(terms);
+// 	var terms = [];
+// 	$.each( data, function (header, content) {
+// 		terms.push("<li id='" + header + "'>" + content + "</li>")
+// 	});
+
+// });
+
+// var text = $.getJSON("json/content.json")
 

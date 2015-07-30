@@ -81,11 +81,15 @@ img.top100 {
 ********************************/ 
 .mega-menu {
 	padding: 20px 20px ! important;
-	width: 900px;
 	border-radius: 0;
 	margin-top: 0px;
 	background-color: #333333;
+  height: 35em;
+  overflow: auto;
 	}
+  .mega-menu img {
+    width: inherit;
+  }
 
 	.mega-menu li {
 		display: inline-block;
@@ -114,38 +118,9 @@ img.top100 {
 			}
 
 @media screen and (max-width: 768px) {
-.mega-menu {
-	display: none;
-	padding: 20px 20px ! important;
-	width: 100%;
-	border-radius: 0;
-	margin-top: 0px;
-	background-color: #3D3D3D;
-	max-height: 300px;
-	overflow: auto;
-	}
-
-	.mega-menu li {
-		display: inline-block;
-		float: left;
-		font-size: 0.94rem;
-		padding: 3px 0px;
-		color: #E05151 ;
-		}
-
-		.mega-menu li.mega-menu-column {
-			margin-right: 20px;
-			width: 150px;
-			}
-
-			.mega-menu .nav-header {
-			padding: 0 !important;
-			margin-bottom: 10px;
-			display: inline-block;
-			width: 100%;
-			border-bottom: 1px solid #ddd;
-			}
-
+  .dropdown-toggle {
+  	display: none;
+  }
 }
 
 
@@ -751,6 +726,14 @@ p.small-headline {
   font-size: 12px !important;
 }
 /*RENTALS*/
+
+
+
+
+/*SCHEDULE*/
+section.schedule img {
+  max-width: 100%;
+}
 /*--------------------------------------------------------------------------
 +	Pricing Table Style
 --------------------------------------------------------------------------*/
@@ -902,6 +885,13 @@ p.small-headline {
 .ribbon-red {
   background-color: #FF7373;
 }
+
+@media screen and (max-width: 767px) {
+  .pricing-plan {
+    width: 40%;
+  }
+}
+
 @media (min-width: 768px) {
   .pricing-plan {
     width: 25%;
@@ -949,6 +939,69 @@ p.small-headline {
     background-clip: padding-box;
     z-index: 4;
   }
+}
+
+
+/*RENTAL PAGE*/
+section.shop {
+    padding-top: 3em!important;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.rent-caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.rent-caption h4 {
+    white-space: nowrap;
+}
+
+.rent-thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.rent-thumbnail {
+    padding: 0;
+}
+
+.rent-thumbnail .rent-caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+
+/*EVENTS*/
+section.newsfeed {
+    padding-top: 3em!important;
+}
+
+/*ABOUT*/
+
+section.aboutus {
+    padding-top: 3em!important;
+}
+
+#about-us-img {
+  width: inherit;
 }
 
 /*TERMS AND CONDITIONS*/
