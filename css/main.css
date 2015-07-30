@@ -368,10 +368,46 @@ img.edu {
 	font-size: 20px;
 }
 
+.edu-blurb {
+  width: inherit;
+  line-height: 15px;
+  font-weight: bold;
+}
 
-/*--------------------------------------------------------------------------
-+	edu-items Style
---------------------------------------------------------------------------*/
+.edu-des {
+  font-weight: lighter;
+}
+
+.edu-blurb .glyphicon {
+  color: #C36464;
+}
+
+.edu-headline {
+  background-color: #C36464;
+  color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.edu-headline h1{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.edu-headline .small {
+  color: #2e2e2e;
+  text-indent: 2em;
+}
+
+h5.uni-title {
+  display: inline;
+  color: #2e2e2e;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
 .edu-item blockquote {
   margin: 0;
   padding: 0;
@@ -438,6 +474,7 @@ img.edu {
   font-weight: 400;
   font-size: 0.8em;
 }
+
 
 @media screen and  (max-width: 767px) {
 	p.edu-des {
