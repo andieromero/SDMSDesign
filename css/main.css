@@ -309,15 +309,13 @@ hgroup {
     height: 100%;
     z-index: 50;
     background-color: #FFD452;
-    left: -20em;
-    bottom: -10em;
     /* Rotate div */
     -ms-transform: rotate(19deg); /* IE 9 */
     -webkit-transform: rotate(19deg); /* Chrome, Safari, Opera */
     transform: rotate(19deg);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .overlay2 {
     display: none;
   }
@@ -334,6 +332,20 @@ hgroup {
     top: -30px;
     text-align: center!important;
     font-size: 10px!important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .overlay2 {
+    left: -12em;
+    bottom: -17em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .overlay2 {
+    left: -12em;
+    bottom: -24em;
   }
 }
 
@@ -399,6 +411,27 @@ hgroup {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .we h1, h1#started{
+    font-size: 28px!important;
+  }
+
+  .we h4 {
+    font-size: 20px!important;
+  }
+
+  .welcome p {
+    font-size: 12px!important;
+    line-height: normal;
+    width: 100%;
+  }
+
+  .start-btn button{
+    margin-right: auto!important;
+    margin-left: auto!important;
+  }
 }
 
 h1#quality {
@@ -492,6 +525,16 @@ h4#pace {
   margin-left: 2px!important;
   margin-right: 2px!important;
   border: none;
+}
+
+@media screen and (max-width: 767px) {
+  .start-btn button{
+    margin-right: auto!important;
+    margin-left: auto!important;
+    margin-top: 10px!important;
+    font-size: 12px;
+    padding: 5px 10px!important;
+  }
 }
 
 #yellow {
