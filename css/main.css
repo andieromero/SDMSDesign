@@ -688,10 +688,18 @@ h5.uni-title {
 
 
 @media screen and  (max-width: 767px) {
+  div.edu-item {
+    padding: 0;
+  }
+  h4.page-head-line {
+    font-size: 2em;
+  }
 	p.edu-des {
 		font-size: 12px;
-		max-height: 200px;
+		max-height: 170px;
 		overflow: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 	}
 	.caption h1 {
 		font-size: 20px;
