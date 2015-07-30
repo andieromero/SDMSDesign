@@ -379,6 +379,28 @@ hgroup {
   opacity: .3;
 }
 
+.we h1 {
+  font-size: 3em;
+  font-family: 'Montserrat', serif;
+  text-transform: none;
+  font-weight: lighter;
+}
+
+.we h4 {
+  text-transform: none;
+  color: #FFD452;
+  font-weight: lighter;
+  font-family: 'Montserrat', serif;
+}
+
+.welcome p {
+  text-transform: none;
+  line-height: 10px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1#quality {
   color: #FFD452 !important;
   text-align: right;
@@ -464,6 +486,24 @@ h4#pace {
 .red {
   color: #D9411E;
   text-transform: none;
+}
+
+.start-btn button {
+  margin-left: 2px!important;
+  margin-right: 2px!important;
+  border: none;
+}
+
+#yellow {
+  background-color: #FFD452;
+}
+
+#lt-red {
+  background-color: #E05151;
+}
+
+#blue {
+  background-color: #75A3d1;
 }
 
 /********************************/
