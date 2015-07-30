@@ -51,6 +51,7 @@ button.navbar-toggle {
 
 .topnav {
 	font-size: 1em;
+  margin-bottom:  0px;
 }
 
 @media screen and (max-width: 767px) {
@@ -83,7 +84,7 @@ img.top100 {
 	width: 900px;
 	border-radius: 0;
 	margin-top: 0px;
-	background-color: #3D3D3D;
+	background-color: #333333;
 	}
 
 	.mega-menu li {
@@ -129,7 +130,7 @@ img.top100 {
 		float: left;
 		font-size: 0.94rem;
 		padding: 3px 0px;
-		color: #C36464 ;
+		color: #E05151 ;
 		}
 
 		.mega-menu li.mega-menu-column {
@@ -379,11 +380,11 @@ img.edu {
 }
 
 .edu-blurb .glyphicon {
-  color: #C36464;
+  color: #E05151;
 }
 
 .edu-headline {
-  background-color: #C36464;
+  background-color: #E05151;
   color: #fff;
   padding: 10px 15px;
   margin-bottom: 20px;
@@ -749,7 +750,7 @@ ol.breadcrumb a {
 }
 
 ol.breadcrumb a:hover {
-  color: #C36464;
+  color: #E05151;
 }
 
 ol.terms-list {
