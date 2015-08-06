@@ -652,6 +652,21 @@ h6.small {
 	.caption .small {
 		font-size: 14px;
 	}
+  img.edu {
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+    position: absolute;
+  }
+  .edu-headline {
+    background-color: #fff;
+    color: #e67272;
+    margin-bottom: 0px;
+    padding-left: 100px;
+  }
+  .edu-blurb {
+    display: none;
+  }
 }
 
 
