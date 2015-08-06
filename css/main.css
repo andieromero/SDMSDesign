@@ -569,7 +569,7 @@ img.edu {
 }
 
 .edu-headline {
-  background-color: #E05151;
+  background-color: #e67272 ;
   color: #fff;
   padding: 10px 15px;
   margin-bottom: 20px;
@@ -591,8 +591,25 @@ h5.uni-title {
   color: #2e2e2e;
   margin-bottom: 0;
   margin-top: 0;
+  right: 30px;
+  position: absolute;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -1px;
 }
 
+h6.small {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 0px;
+  color: #808080;
+  text-align: right;
+  font-weight: lighter;
+}
+
+.edu-item {
+  margin-bottom: 20px;
+}
 
 .edu-item blockquote {
   margin: 0;
@@ -604,67 +621,14 @@ h5.uni-title {
   margin-bottom: 20px;
   line-height: 1.5;
 }
-.edu-item .edu-item-bubble {
-  text-align: justify;
-  -webkit-border-radius: 4px;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius: 4px;
-  -moz-background-clip: padding;
-  border-radius: 4px;
-  background-clip: padding-box;
-  padding: 0 20px 20px 20px;
-  margin: 35px 10px 20px 10px;
-  background: #FFF;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
-  -moz-box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
-  box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
-  color: inset 0 1px #fff,0 1px 2px #c8cfe6;
-}
-.edu-item .edu-item-bubble::before {
-  background-color: #FFF;
-  content: "\00a0";
-  display: block;
-  height: 20px;
-  width: 20px;
-  top: -10px;
-  left: 45%;
-  position: relative;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.edu-item .author-photo {
-  text-align: center;
-}
-.edu-item .author-photo img {
-  margin: auto;
-  border: 5px solid #FFF;
-  -webkit-border-radius: 100px;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius: 100px;
-  -moz-background-clip: padding;
-  border-radius: 100px;
-  background-clip: padding-box;
-  -webkit-box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
-  -moz-box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
-  box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
-  color: inset 0 1px #fff,0 1px 2px #c8cfe6;
-}
-.edu-item .author-info {
-  font-weight: 400;
-  font-size: 0.8em;
-}
-
 
 @media screen and  (max-width: 767px) {
   div.edu-item {
     padding: 0;
+  }
+  h6.small {
+    position: relative;
+    right: 15px;
   }
   h4.page-head-line {
     font-size: 2em;
