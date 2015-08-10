@@ -217,6 +217,8 @@ header p {
 
 #menu-top {
     display: block;
+    position: relative;
+    right: 25px;
 }
 
 
@@ -224,7 +226,6 @@ header p {
     color: #FFF;
     text-decoration: none;
     font-weight: 500;
-    padding: 10px 10px 10px 10px;
     display: inline-block;
     position: relative;
     vertical-align: baseline;
@@ -256,6 +257,42 @@ header p {
 
 .navbar {
     margin-bottom: 0px;
+}
+button.btn.btn-default.btn-search,.navbar-collapse form[role="search"].active button[type="submit"] {
+    position: relative;
+    background-color: #333333!important;
+    color: #fff;
+}
+.search-control {
+    background-color: #333333!important;
+    width: 102%!important;
+}
+span.input-group-btn {
+    background-color: #333333;
+    width: 1%!important;
+}
+div.input-group {
+    width: 100%;
+}
+
+@media screen and (max-width: 787px) {
+    ul#menu-top.nav.navbar-nav.navbar-right {
+        right: 0px!important;
+        text-align: right;
+        height: 250px;
+    }
+    li.li-collapse {
+        top: 50px;
+    }
+    a.menu-top-active {
+        background-color: transparent;
+    }
+    .navbar-collapse form[role="search"]{
+        border: none;
+        top: 10px !important;
+        padding-left: 15px !important;
+        padding-right: 15px!important;
+    }
 }
 /* =============================================================
    FOOTER SECTION STYLES
