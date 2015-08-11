@@ -62,8 +62,8 @@ $(document).ready(function(){
 	    {
 	      breakpoint: 480,
 	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1,
+	        slidesToShow: 2,
+	        slidesToScroll: 2,
 	        arrows: false
 	      }
 	    }
@@ -72,6 +72,17 @@ $(document).ready(function(){
 	    // instead of a settings object
 	  ]
 	});
+	 $(window).scroll(function(){
+  		var y = $(window).scrollTop() - 300;
+  		if( y > 0 ){
+      		$("#top-shadow").css({'display':'block', 'opacity':y/20});
+      		$("#active").addClass('menu-top-active');
+  		} else {
+      	$("#top-shadow").css({'display':'block', 'opacity':y/20});
+      		$("#active").removeClass('menu-top-active');
+
+  		}
+ 	});
 });
 
     $(function () {
