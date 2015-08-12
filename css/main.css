@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=League+Script:400|BenchNine:400,700|Six+Caps);
+
 html, body {
 	height: 100%;
 	margin: 0;
@@ -21,13 +23,31 @@ p, li, a {
 
 a.navbar-brand{
 	color: #fff!important;
-	font-size: 2em;
-	line-height: 1em;
-  font-family: 'Oswald', sans-serif !important;
+	font-size: 4em!important;
+  font-family: 'BenchNine', sans-serif !important;
+  width: auto;
+  line-height: 45px;
 }
 
-.navbar-brand a {
-  font-family: 'Oswald', sans-serif;
+a.navbar-brand span {
+  letter-spacing: 5px;
+  font-size: 1.5em !important;
+}
+
+img#saxlogo {
+      margin-right: 0;
+    position: relative;
+    /* z-index: 2000; */
+    bottom: 2em;
+    left: 3.9em;
+    width: 60px;
+    -ms-transform: rotate(-38deg);
+    -webkit-transform: rotate(-38deg);
+    transform: rotate(-38deg);
+}
+
+.simple {
+  text-shadow: -2px 1px 0 #541F1F, -3px 1px 0 #350F0F;
 }
 
 .nav-tabs > li, .nav-pills > li {
@@ -46,7 +66,7 @@ button.navbar-toggle {
 	bottom: 10px;
 	right: 0;
 	border: none;
-	background-color: #F0677C!important;
+	background-color: #E05151!important;
 }
 
 .topnav {
@@ -68,12 +88,12 @@ button.navbar-toggle {
 
 img.top100 {
 	float: right;
-	width: 100px;
-	margin-top: 20px;
+	width: 140px;
+	margin-top: 10px;
 }
 
 @media screen and (max-width: 767px) {
-	img.top100 {
+	img.top100, a.navbar-brand.simple {
 		display: none;
 	}
 }

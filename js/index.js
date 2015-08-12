@@ -75,10 +75,10 @@ $(document).ready(function(){
 	 $(window).scroll(function(){
   		var y = $(window).scrollTop() - 300;
   		if( y > 0 ){
-      		$("#top-shadow").css({'display':'block', 'opacity':y/20});
+      		$("#top-shadow").css({'display':'block', 'opacity':y/20, 'z-index': 0});
       		$("#active").addClass('menu-top-active');
   		} else {
-      	$("#top-shadow").css({'display':'block', 'opacity':y/20});
+      	$("#top-shadow").css({'display':'block', 'opacity':y/20, 'z-index': 0});
       		$("#active").removeClass('menu-top-active');
 
   		}

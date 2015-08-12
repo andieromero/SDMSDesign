@@ -43,9 +43,9 @@ body {
 .page-head-line {
     font-weight: 900;
     padding-bottom: 20px;
-    border-bottom: 2px solid #F0677C;
+    border-bottom: 2px solid #E05151;
     text-transform: uppercase;
-    color: #F0677C;
+    color: #E05151;
     font-size: 3em;
     margin-bottom: 40px;
 }
@@ -72,7 +72,7 @@ margin-bottom: 20px;
 color: #fff;
 text-align: center;
 cursor:pointer;
-background-color:#F0677C;
+background-color:#E05151;
 -webkit-border-radius:50%;
     -moz-border-radius:50%;
 }
@@ -141,7 +141,7 @@ header a:hover{
     -moz-border-radius: 50%;
     height: 60px;
     width: 60px;
-    background-color: #F0677C;
+    background-color: #E05151;
     color: #fff;
 }
 
